@@ -43,18 +43,23 @@ extern void Restaurant_BookRestaurant_mBC194723AAAFCB7E611B6084C1AB2B23A93B2DAC 
 extern void Restaurant_ChangeImageRoutine_m76A25A4BB9CEBF51CF2336C9ECE1A9BB643BB2E1 (void);
 extern void Restaurant_TransitionToNextImage_mED1CB17B011CD6A38130A91F768BCD2529CA9B6B (void);
 extern void Restaurant_ForceUpdateBookingStatus_m7AD0B7FDA06C4CAA1D4DEA6B7709171CA010FA56 (void);
+extern void Restaurant_Update_m2BA04F1A49F2391BAF63B878E3DE01582EF1E1E3 (void);
 extern void Restaurant__ctor_mD65A104846250182F462A45832ABEAB92526FB20 (void);
 extern void U3CChangeImageRoutineU3Ed__14__ctor_mFD3354728A73754F8BDECD11DD410002189DC4A5 (void);
 extern void U3CChangeImageRoutineU3Ed__14_System_IDisposable_Dispose_m48E2E284DFDFDE05283C5AE425A95031D628756F (void);
 extern void U3CChangeImageRoutineU3Ed__14_MoveNext_m72B85F25452446214B94B0C5076531C20DCF265D (void);
 extern void U3CChangeImageRoutineU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1A8FC1F2E04EB6C1BDF63546ECF69766B7A381A0 (void);
+extern void U3CChangeImageRoutineU3Ed__14_System_Collections_IEnumerator_Reset_m3CC07CEBA4FA08FF9973CBCB9F2FBC55B53F5D73 (void);
 extern void U3CChangeImageRoutineU3Ed__14_System_Collections_IEnumerator_get_Current_m78CB5D37F982ED3B4FC75C79DFCBD5FF82ED9A3B (void);
 extern void U3CTransitionToNextImageU3Ed__15__ctor_m1403668C43FE54744544932459A104011EE8CFD6 (void);
 extern void U3CTransitionToNextImageU3Ed__15_System_IDisposable_Dispose_m2C8A13A7B159BABFBB24419588184783FE951A8A (void);
 extern void U3CTransitionToNextImageU3Ed__15_MoveNext_mCFD31ADBC519CE2D8A4E3D7ACD7D163D6CF42DED (void);
 extern void U3CTransitionToNextImageU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEBC2442D840BA332BD05E4BB04D52B350CF11AE4 (void);
+extern void U3CTransitionToNextImageU3Ed__15_System_Collections_IEnumerator_Reset_m16B52EF2AA65F0889CFF7A9776A11E4BE4D2DE40 (void);
 extern void U3CTransitionToNextImageU3Ed__15_System_Collections_IEnumerator_get_Current_m0DCCE72E709F304F3245D1E1E1DC8DD32E0E0E51 (void);
-static Il2CppMethodPointer s_methodPointers[42] = 
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[47] = 
 {
 	EventData__ctor_m237390E8F9B6C3DF083BDAEC75D459717AF23B09,
 	EventsManager_ShowEventInfo_mDD15609CAEB44994F82DF4C61FC1AC926EE755E2,
@@ -87,68 +92,78 @@ static Il2CppMethodPointer s_methodPointers[42] =
 	Restaurant_ChangeImageRoutine_m76A25A4BB9CEBF51CF2336C9ECE1A9BB643BB2E1,
 	Restaurant_TransitionToNextImage_mED1CB17B011CD6A38130A91F768BCD2529CA9B6B,
 	Restaurant_ForceUpdateBookingStatus_m7AD0B7FDA06C4CAA1D4DEA6B7709171CA010FA56,
+	Restaurant_Update_m2BA04F1A49F2391BAF63B878E3DE01582EF1E1E3,
 	Restaurant__ctor_mD65A104846250182F462A45832ABEAB92526FB20,
 	U3CChangeImageRoutineU3Ed__14__ctor_mFD3354728A73754F8BDECD11DD410002189DC4A5,
 	U3CChangeImageRoutineU3Ed__14_System_IDisposable_Dispose_m48E2E284DFDFDE05283C5AE425A95031D628756F,
 	U3CChangeImageRoutineU3Ed__14_MoveNext_m72B85F25452446214B94B0C5076531C20DCF265D,
 	U3CChangeImageRoutineU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1A8FC1F2E04EB6C1BDF63546ECF69766B7A381A0,
+	U3CChangeImageRoutineU3Ed__14_System_Collections_IEnumerator_Reset_m3CC07CEBA4FA08FF9973CBCB9F2FBC55B53F5D73,
 	U3CChangeImageRoutineU3Ed__14_System_Collections_IEnumerator_get_Current_m78CB5D37F982ED3B4FC75C79DFCBD5FF82ED9A3B,
 	U3CTransitionToNextImageU3Ed__15__ctor_m1403668C43FE54744544932459A104011EE8CFD6,
 	U3CTransitionToNextImageU3Ed__15_System_IDisposable_Dispose_m2C8A13A7B159BABFBB24419588184783FE951A8A,
 	U3CTransitionToNextImageU3Ed__15_MoveNext_mCFD31ADBC519CE2D8A4E3D7ACD7D163D6CF42DED,
 	U3CTransitionToNextImageU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEBC2442D840BA332BD05E4BB04D52B350CF11AE4,
+	U3CTransitionToNextImageU3Ed__15_System_Collections_IEnumerator_Reset_m16B52EF2AA65F0889CFF7A9776A11E4BE4D2DE40,
 	U3CTransitionToNextImageU3Ed__15_System_Collections_IEnumerator_get_Current_m0DCCE72E709F304F3245D1E1E1DC8DD32E0E0E51,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[42] = 
+static const int32_t s_InvokerIndices[47] = 
 {
-	1449,
-	1261,
-	1449,
-	1449,
-	1449,
-	1395,
-	1261,
-	1449,
-	1449,
-	1449,
-	1449,
-	1395,
-	1358,
-	1235,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1449,
-	1395,
-	1395,
-	1449,
-	1449,
-	1261,
-	1449,
-	1358,
-	1395,
-	1395,
-	1261,
-	1449,
-	1358,
-	1395,
-	1395,
+	4689,
+	3781,
+	4689,
+	4689,
+	4689,
+	4585,
+	3781,
+	4689,
+	4689,
+	4689,
+	4689,
+	4585,
+	4510,
+	3728,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4689,
+	4585,
+	4585,
+	4689,
+	4689,
+	4689,
+	3781,
+	4689,
+	4510,
+	4585,
+	4689,
+	4585,
+	3781,
+	4689,
+	4510,
+	4585,
+	4689,
+	4585,
+	7028,
+	4689,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	42,
+	47,
 	s_methodPointers,
 	0,
 	NULL,

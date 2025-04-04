@@ -57,9 +57,17 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 {
 };
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
 struct IntPtr_t 
 {
 	void* ___m_value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
 };
 struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
 {
@@ -185,6 +193,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRendererDataAccessExtensions_SetLo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRendererDataAccessExtensions_SetDeformableBuffer_m3A000487D1EB0983E49CF13E13AA532787AF2E28 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___1_src, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteRendererDataAccessExtensions_IsUsingDeformableBuffer_mB9F50B728381CFCF86D43EFC6765EC3EE650637C (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, intptr_t ___1_buffer, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRendererDataAccessExtensions_SetBatchDeformableBufferAndLocalAABBArray_mAFC805600B21985D7497C5F0C172E5601F04903D (SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* ___0_spriteRenderers, NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 ___1_buffers, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_bufferSizes, NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 ___3_bounds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DiscreteEvaluationAttributeUtilities_ConvertFloatToDiscreteInt_mADD1EB91441A214F69458BFF45F86E77D11A340C (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DiscreteEvaluationAttributeUtilities_ConvertDiscreteIntToFloat_m6A22CA1A2232C185F6E10865530FFEDA68E28D7F (int32_t ___0_f, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -235,6 +245,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetBatchDeformableB
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_3 = ___3_bounds;
 		SpriteRendererDataAccessExtensions_SetBatchDeformableBufferAndLocalAABBArray_mAFC805600B21985D7497C5F0C172E5601F04903D(L_0, L_1, L_2, L_3, NULL);
 		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44 (float ___0_f, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_f;
+		int32_t L_1;
+		L_1 = DiscreteEvaluationAttributeUtilities_ConvertFloatToDiscreteInt_mADD1EB91441A214F69458BFF45F86E77D11A340C(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148 (int32_t ___0_i, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_i;
+		float L_1;
+		L_1 = DiscreteEvaluationAttributeUtilities_ConvertDiscreteIntToFloat_m6A22CA1A2232C185F6E10865530FFEDA68E28D7F(L_0, NULL);
+		return L_1;
 	}
 }
 #ifdef __clang__

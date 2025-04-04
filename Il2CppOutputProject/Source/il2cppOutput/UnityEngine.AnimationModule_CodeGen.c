@@ -12,6 +12,20 @@
 
 
 
+extern void StateMachineBehaviour_OnStateEnter_mB618EFE75A50CBAA3EE6471E64A3E2CA2A2C90FD (void);
+extern void StateMachineBehaviour_OnStateUpdate_mC1A83A4F693AF3AB51BC592A0CE525CE4F320D6B (void);
+extern void StateMachineBehaviour_OnStateExit_mC113F0B2F53847F9A6755B82D0AC53C971171CFD (void);
+extern void StateMachineBehaviour_OnStateMove_m7229D5EFBA432665B9046FC3C21D463FFD281978 (void);
+extern void StateMachineBehaviour_OnStateIK_m310C17694D8D1B9D60D549259A39837F22FD3240 (void);
+extern void StateMachineBehaviour_OnStateMachineEnter_m0CEFF9E4946BFDC4F7066BEB4C961169DBC5073F (void);
+extern void StateMachineBehaviour_OnStateMachineExit_m384B808E3961C6C2C375DF7487EF2B49E44E6CD7 (void);
+extern void StateMachineBehaviour_OnStateEnter_m491D81A9A64DE4AE02415A5909B74AE947EAE1B9 (void);
+extern void StateMachineBehaviour_OnStateUpdate_mF3130BE7BDD7C8B2470303FB1986A336E47CC98C (void);
+extern void StateMachineBehaviour_OnStateExit_mD47A506ACE251A6341115CBE5607D05C01747127 (void);
+extern void StateMachineBehaviour_OnStateMove_m1A01C10E754426572C7BBA7AA13044FDA372FDFC (void);
+extern void StateMachineBehaviour_OnStateIK_mCE3B4C71868B564EE6BE4B8663535058705C3B72 (void);
+extern void StateMachineBehaviour_OnStateMachineEnter_m0399B12419A4F990F41BD589C833E2D2C0076762 (void);
+extern void StateMachineBehaviour_OnStateMachineExit_mF8BB1A8851B0699FC1D85F538E16EF12C08BBB93 (void);
 extern void StateMachineBehaviour__ctor_m9663A75D1016E16D7E3A48E2D4E6466A041A00AB (void);
 extern void Animation_Blend_m90E0B5AE10B2E3248B3CAAD7864EB6B211C5C198 (void);
 extern void Animation_Blend_mE7BF5EDC1AEAD0AF5E5CF364ED1F04404330E300 (void);
@@ -22,16 +36,21 @@ extern void Animation_GetStateCount_mB779E6750180C77CE5F2E81B78C9AFEE93FCB1FE (v
 extern void Enumerator__ctor_mF3FB66377864673B8DAF14A36DB6D069B98A92F4 (void);
 extern void Enumerator_get_Current_m4A17FE0020D4C8856EFC8EF531B99723FFB2B9DF (void);
 extern void Enumerator_MoveNext_m82477C155D4F7CF98317C0EEC9F5070D196AA671 (void);
+extern void Enumerator_Reset_m687381C45ECBBD052447FAC06ECE9760FF23DA63 (void);
 extern void AnimationState__ctor_mB18C82530ADA40EE3BC245AAB0673941D78B779E (void);
 extern void AnimationEvent__ctor_mBC954085B1D18B436D08E7ADE3458B91E208F3B2 (void);
 extern void Animator_SetTrigger_mC9CD54D627C8843EF6E159E167449D216EF6EB30 (void);
 extern void Animator_ResetTrigger_m8DCA67D5A6B56702E3FAD4E18243E194B71297CC (void);
 extern void Animator_get_hasBoundPlayables_mA5A6132C03593851FE80D8E7490191E051E5A1C9 (void);
+extern void Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A (void);
 extern void Animator_SetTriggerString_m177C75DFBE070DE66FC08A3232444CCEA409C25E (void);
 extern void Animator_ResetTriggerString_m78259348CED35F156148A64B95EBD73CE3951868 (void);
 extern void AnimatorOverrideController_OnInvalidateOverrideController_mA6B0AA977505FDEFDD6BCA2E941FD3A18AE1AD23 (void);
 extern void OnOverrideControllerDirtyCallback__ctor_mA49B11AF24CB49A9B764058DB73CE221AE54E106 (void);
 extern void OnOverrideControllerDirtyCallback_Invoke_m538DCB0FFFE75495DC3977DBBF55A07C570F8B5A (void);
+extern void DiscreteEvaluationAttribute__ctor_m8C8036DC8BB15BBD3BBB79F2D14637C0DEBCB151 (void);
+extern void DiscreteEvaluationAttributeUtilities_ConvertFloatToDiscreteInt_mADD1EB91441A214F69458BFF45F86E77D11A340C (void);
+extern void DiscreteEvaluationAttributeUtilities_ConvertDiscreteIntToFloat_m6A22CA1A2232C185F6E10865530FFEDA68E28D7F (void);
 extern void AnimationClipPlayable_GetHandle_mE775F2247901BA293DB01A8D384D3F9D02A25627 (void);
 extern void AnimationClipPlayable_Equals_mC5263BEA86C02CEDF93C5B14EAA168883E1DB5F4 (void);
 extern void AnimationLayerMixerPlayable__ctor_m28884B8B9F7E057DF947E3B43ED78EA107368BD6 (void);
@@ -68,8 +87,22 @@ extern void AnimatorControllerPlayable_GetHandle_m718D9A4E0DB7AC62947B1D09E47DBC
 extern void AnimatorControllerPlayable_SetHandle_mD86A3C0D03453FAF21903F7A52A743AB2DA6DED4 (void);
 extern void AnimatorControllerPlayable_Equals_m14125BB4CCFCDFFD098223AF20E38501BA264180 (void);
 extern void AnimatorControllerPlayable__cctor_m88506D1B15D609B818DFDC6B2BCFF42ABB41B090 (void);
-static Il2CppMethodPointer s_methodPointers[56] = 
+static Il2CppMethodPointer s_methodPointers[75] = 
 {
+	StateMachineBehaviour_OnStateEnter_mB618EFE75A50CBAA3EE6471E64A3E2CA2A2C90FD,
+	StateMachineBehaviour_OnStateUpdate_mC1A83A4F693AF3AB51BC592A0CE525CE4F320D6B,
+	StateMachineBehaviour_OnStateExit_mC113F0B2F53847F9A6755B82D0AC53C971171CFD,
+	StateMachineBehaviour_OnStateMove_m7229D5EFBA432665B9046FC3C21D463FFD281978,
+	StateMachineBehaviour_OnStateIK_m310C17694D8D1B9D60D549259A39837F22FD3240,
+	StateMachineBehaviour_OnStateMachineEnter_m0CEFF9E4946BFDC4F7066BEB4C961169DBC5073F,
+	StateMachineBehaviour_OnStateMachineExit_m384B808E3961C6C2C375DF7487EF2B49E44E6CD7,
+	StateMachineBehaviour_OnStateEnter_m491D81A9A64DE4AE02415A5909B74AE947EAE1B9,
+	StateMachineBehaviour_OnStateUpdate_mF3130BE7BDD7C8B2470303FB1986A336E47CC98C,
+	StateMachineBehaviour_OnStateExit_mD47A506ACE251A6341115CBE5607D05C01747127,
+	StateMachineBehaviour_OnStateMove_m1A01C10E754426572C7BBA7AA13044FDA372FDFC,
+	StateMachineBehaviour_OnStateIK_mCE3B4C71868B564EE6BE4B8663535058705C3B72,
+	StateMachineBehaviour_OnStateMachineEnter_m0399B12419A4F990F41BD589C833E2D2C0076762,
+	StateMachineBehaviour_OnStateMachineExit_mF8BB1A8851B0699FC1D85F538E16EF12C08BBB93,
 	StateMachineBehaviour__ctor_m9663A75D1016E16D7E3A48E2D4E6466A041A00AB,
 	Animation_Blend_m90E0B5AE10B2E3248B3CAAD7864EB6B211C5C198,
 	Animation_Blend_mE7BF5EDC1AEAD0AF5E5CF364ED1F04404330E300,
@@ -80,16 +113,21 @@ static Il2CppMethodPointer s_methodPointers[56] =
 	Enumerator__ctor_mF3FB66377864673B8DAF14A36DB6D069B98A92F4,
 	Enumerator_get_Current_m4A17FE0020D4C8856EFC8EF531B99723FFB2B9DF,
 	Enumerator_MoveNext_m82477C155D4F7CF98317C0EEC9F5070D196AA671,
+	Enumerator_Reset_m687381C45ECBBD052447FAC06ECE9760FF23DA63,
 	AnimationState__ctor_mB18C82530ADA40EE3BC245AAB0673941D78B779E,
 	AnimationEvent__ctor_mBC954085B1D18B436D08E7ADE3458B91E208F3B2,
 	Animator_SetTrigger_mC9CD54D627C8843EF6E159E167449D216EF6EB30,
 	Animator_ResetTrigger_m8DCA67D5A6B56702E3FAD4E18243E194B71297CC,
 	Animator_get_hasBoundPlayables_mA5A6132C03593851FE80D8E7490191E051E5A1C9,
+	Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A,
 	Animator_SetTriggerString_m177C75DFBE070DE66FC08A3232444CCEA409C25E,
 	Animator_ResetTriggerString_m78259348CED35F156148A64B95EBD73CE3951868,
 	AnimatorOverrideController_OnInvalidateOverrideController_mA6B0AA977505FDEFDD6BCA2E941FD3A18AE1AD23,
 	OnOverrideControllerDirtyCallback__ctor_mA49B11AF24CB49A9B764058DB73CE221AE54E106,
 	OnOverrideControllerDirtyCallback_Invoke_m538DCB0FFFE75495DC3977DBBF55A07C570F8B5A,
+	DiscreteEvaluationAttribute__ctor_m8C8036DC8BB15BBD3BBB79F2D14637C0DEBCB151,
+	DiscreteEvaluationAttributeUtilities_ConvertFloatToDiscreteInt_mADD1EB91441A214F69458BFF45F86E77D11A340C,
+	DiscreteEvaluationAttributeUtilities_ConvertDiscreteIntToFloat_m6A22CA1A2232C185F6E10865530FFEDA68E28D7F,
 	AnimationClipPlayable_GetHandle_mE775F2247901BA293DB01A8D384D3F9D02A25627,
 	AnimationClipPlayable_Equals_mC5263BEA86C02CEDF93C5B14EAA168883E1DB5F4,
 	AnimationLayerMixerPlayable__ctor_m28884B8B9F7E057DF947E3B43ED78EA107368BD6,
@@ -156,98 +194,117 @@ extern void AnimatorControllerPlayable_SetHandle_mD86A3C0D03453FAF21903F7A52A743
 extern void AnimatorControllerPlayable_Equals_m14125BB4CCFCDFFD098223AF20E38501BA264180_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[27] = 
 {
-	{ 0x06000015, AnimationClipPlayable_GetHandle_mE775F2247901BA293DB01A8D384D3F9D02A25627_AdjustorThunk },
-	{ 0x06000016, AnimationClipPlayable_Equals_mC5263BEA86C02CEDF93C5B14EAA168883E1DB5F4_AdjustorThunk },
-	{ 0x06000017, AnimationLayerMixerPlayable__ctor_m28884B8B9F7E057DF947E3B43ED78EA107368BD6_AdjustorThunk },
-	{ 0x06000018, AnimationLayerMixerPlayable_GetHandle_m324A98D0B0BFC0441377D65CAE93C914F828721F_AdjustorThunk },
-	{ 0x06000019, AnimationLayerMixerPlayable_Equals_mA5D24E61E2DE1140B409F3B569DBA3C185751970_AdjustorThunk },
-	{ 0x0600001C, AnimationMixerPlayable__ctor_mBF84CC064549C2C00B2AE1174018335958EB7EA7_AdjustorThunk },
-	{ 0x0600001D, AnimationMixerPlayable_GetHandle_mBA6CEB1579A713A985D474E75BC282728318882F_AdjustorThunk },
-	{ 0x0600001E, AnimationMixerPlayable_Equals_m6EBE215636EEEA3196A43F4D6C1FE6DD704AFA4E_AdjustorThunk },
-	{ 0x06000020, AnimationMotionXToDeltaPlayable__ctor_mDE3C14B4B975AC693669D66B6E41BB6432AFA940_AdjustorThunk },
-	{ 0x06000021, AnimationMotionXToDeltaPlayable_GetHandle_m09F605E78AD7F0135C7F57EB048031091A50E3A2_AdjustorThunk },
-	{ 0x06000022, AnimationMotionXToDeltaPlayable_Equals_m7CBF3B7618EDBA4ECC2F3C2F54011248BC45CDCC_AdjustorThunk },
-	{ 0x06000024, AnimationOffsetPlayable__ctor_mBF3AC6493556DAAEF608B359BEBE8FA6D9F8DBFD_AdjustorThunk },
-	{ 0x06000025, AnimationOffsetPlayable_GetHandle_m769BEFF90379AEAB0C579F7800953458CE3EBA78_AdjustorThunk },
-	{ 0x06000026, AnimationOffsetPlayable_Equals_mEC28392ADD4E9639EB9228D106D93E21B3587270_AdjustorThunk },
-	{ 0x06000028, AnimationPosePlayable__ctor_mC6C096785918358CA7EC12BABCDF4BBD47F7BA3F_AdjustorThunk },
-	{ 0x06000029, AnimationPosePlayable_GetHandle_m5DC7CA4CAF3CD525D454D99EBC3D12C3571B527B_AdjustorThunk },
-	{ 0x0600002A, AnimationPosePlayable_Equals_m10F1E7DD7037B2AB3F7DAE3E01A1DC843EABD0A3_AdjustorThunk },
-	{ 0x0600002C, AnimationRemoveScalePlayable__ctor_m4D6C7C4AB8E078050B0CC34C6732051CF043CFA2_AdjustorThunk },
-	{ 0x0600002D, AnimationRemoveScalePlayable_GetHandle_mFFA58B879F31327187A20ED30E1C814B7BEAA9C6_AdjustorThunk },
-	{ 0x0600002E, AnimationRemoveScalePlayable_Equals_m0ACDD59B80103591DA8E84CB387FB10778D8C327_AdjustorThunk },
-	{ 0x06000030, AnimationScriptPlayable__ctor_m6DEFD72735E79009FC1484AA2A7A82E6CE601247_AdjustorThunk },
-	{ 0x06000031, AnimationScriptPlayable_GetHandle_m30355B6EE1AA3BA36D628251FB4291386D223646_AdjustorThunk },
-	{ 0x06000032, AnimationScriptPlayable_Equals_mAD02E40704CBE4AB188DE0569052F8EA9864F4E4_AdjustorThunk },
-	{ 0x06000034, AnimatorControllerPlayable__ctor_mBCB9475E2740BE1AEB94C08BAD14D51333258BFE_AdjustorThunk },
-	{ 0x06000035, AnimatorControllerPlayable_GetHandle_m718D9A4E0DB7AC62947B1D09E47DBCD25C27AF6C_AdjustorThunk },
-	{ 0x06000036, AnimatorControllerPlayable_SetHandle_mD86A3C0D03453FAF21903F7A52A743AB2DA6DED4_AdjustorThunk },
-	{ 0x06000037, AnimatorControllerPlayable_Equals_m14125BB4CCFCDFFD098223AF20E38501BA264180_AdjustorThunk },
+	{ 0x06000028, AnimationClipPlayable_GetHandle_mE775F2247901BA293DB01A8D384D3F9D02A25627_AdjustorThunk },
+	{ 0x06000029, AnimationClipPlayable_Equals_mC5263BEA86C02CEDF93C5B14EAA168883E1DB5F4_AdjustorThunk },
+	{ 0x0600002A, AnimationLayerMixerPlayable__ctor_m28884B8B9F7E057DF947E3B43ED78EA107368BD6_AdjustorThunk },
+	{ 0x0600002B, AnimationLayerMixerPlayable_GetHandle_m324A98D0B0BFC0441377D65CAE93C914F828721F_AdjustorThunk },
+	{ 0x0600002C, AnimationLayerMixerPlayable_Equals_mA5D24E61E2DE1140B409F3B569DBA3C185751970_AdjustorThunk },
+	{ 0x0600002F, AnimationMixerPlayable__ctor_mBF84CC064549C2C00B2AE1174018335958EB7EA7_AdjustorThunk },
+	{ 0x06000030, AnimationMixerPlayable_GetHandle_mBA6CEB1579A713A985D474E75BC282728318882F_AdjustorThunk },
+	{ 0x06000031, AnimationMixerPlayable_Equals_m6EBE215636EEEA3196A43F4D6C1FE6DD704AFA4E_AdjustorThunk },
+	{ 0x06000033, AnimationMotionXToDeltaPlayable__ctor_mDE3C14B4B975AC693669D66B6E41BB6432AFA940_AdjustorThunk },
+	{ 0x06000034, AnimationMotionXToDeltaPlayable_GetHandle_m09F605E78AD7F0135C7F57EB048031091A50E3A2_AdjustorThunk },
+	{ 0x06000035, AnimationMotionXToDeltaPlayable_Equals_m7CBF3B7618EDBA4ECC2F3C2F54011248BC45CDCC_AdjustorThunk },
+	{ 0x06000037, AnimationOffsetPlayable__ctor_mBF3AC6493556DAAEF608B359BEBE8FA6D9F8DBFD_AdjustorThunk },
+	{ 0x06000038, AnimationOffsetPlayable_GetHandle_m769BEFF90379AEAB0C579F7800953458CE3EBA78_AdjustorThunk },
+	{ 0x06000039, AnimationOffsetPlayable_Equals_mEC28392ADD4E9639EB9228D106D93E21B3587270_AdjustorThunk },
+	{ 0x0600003B, AnimationPosePlayable__ctor_mC6C096785918358CA7EC12BABCDF4BBD47F7BA3F_AdjustorThunk },
+	{ 0x0600003C, AnimationPosePlayable_GetHandle_m5DC7CA4CAF3CD525D454D99EBC3D12C3571B527B_AdjustorThunk },
+	{ 0x0600003D, AnimationPosePlayable_Equals_m10F1E7DD7037B2AB3F7DAE3E01A1DC843EABD0A3_AdjustorThunk },
+	{ 0x0600003F, AnimationRemoveScalePlayable__ctor_m4D6C7C4AB8E078050B0CC34C6732051CF043CFA2_AdjustorThunk },
+	{ 0x06000040, AnimationRemoveScalePlayable_GetHandle_mFFA58B879F31327187A20ED30E1C814B7BEAA9C6_AdjustorThunk },
+	{ 0x06000041, AnimationRemoveScalePlayable_Equals_m0ACDD59B80103591DA8E84CB387FB10778D8C327_AdjustorThunk },
+	{ 0x06000043, AnimationScriptPlayable__ctor_m6DEFD72735E79009FC1484AA2A7A82E6CE601247_AdjustorThunk },
+	{ 0x06000044, AnimationScriptPlayable_GetHandle_m30355B6EE1AA3BA36D628251FB4291386D223646_AdjustorThunk },
+	{ 0x06000045, AnimationScriptPlayable_Equals_mAD02E40704CBE4AB188DE0569052F8EA9864F4E4_AdjustorThunk },
+	{ 0x06000047, AnimatorControllerPlayable__ctor_mBCB9475E2740BE1AEB94C08BAD14D51333258BFE_AdjustorThunk },
+	{ 0x06000048, AnimatorControllerPlayable_GetHandle_m718D9A4E0DB7AC62947B1D09E47DBCD25C27AF6C_AdjustorThunk },
+	{ 0x06000049, AnimatorControllerPlayable_SetHandle_mD86A3C0D03453FAF21903F7A52A743AB2DA6DED4_AdjustorThunk },
+	{ 0x0600004A, AnimatorControllerPlayable_Equals_m14125BB4CCFCDFFD098223AF20E38501BA264180_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[56] = 
+static const int32_t s_InvokerIndices[75] = 
 {
-	1449,
-	1269,
-	850,
-	575,
-	1395,
-	1147,
-	1384,
-	1269,
-	1395,
-	1358,
-	1449,
-	1449,
-	1269,
-	1269,
-	1358,
-	1269,
-	1269,
-	2882,
-	845,
-	1449,
-	1398,
-	944,
-	859,
-	1398,
-	945,
-	2483,
-	2974,
-	1272,
-	1398,
-	946,
-	2974,
-	1272,
-	1398,
-	947,
-	2974,
-	1272,
-	1398,
-	948,
-	2974,
-	1272,
-	1398,
-	949,
-	2974,
-	1272,
-	1398,
-	950,
-	2974,
-	1272,
-	1398,
-	951,
-	2974,
-	1272,
-	1398,
-	1272,
-	952,
-	2974,
+	1038,
+	1038,
+	1038,
+	1038,
+	1038,
+	2024,
+	2024,
+	665,
+	665,
+	665,
+	665,
+	665,
+	1045,
+	1045,
+	4689,
+	3805,
+	2032,
+	1081,
+	4585,
+	3337,
+	4559,
+	3805,
+	4585,
+	4510,
+	4689,
+	4689,
+	4689,
+	3805,
+	3805,
+	4510,
+	6637,
+	3805,
+	3805,
+	6872,
+	2026,
+	4689,
+	4689,
+	6638,
+	6750,
+	4593,
+	2593,
+	2048,
+	4593,
+	2594,
+	6293,
+	7024,
+	3813,
+	4593,
+	2595,
+	7024,
+	3813,
+	4593,
+	2596,
+	7024,
+	3813,
+	4593,
+	2597,
+	7024,
+	3813,
+	4593,
+	2598,
+	7024,
+	3813,
+	4593,
+	2599,
+	7024,
+	3813,
+	4593,
+	2600,
+	7024,
+	3813,
+	4593,
+	3813,
+	2601,
+	7024,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AnimationModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AnimationModule_CodeGenModule = 
 {
 	"UnityEngine.AnimationModule.dll",
-	56,
+	75,
 	s_methodPointers,
 	27,
 	s_adjustorThunks,

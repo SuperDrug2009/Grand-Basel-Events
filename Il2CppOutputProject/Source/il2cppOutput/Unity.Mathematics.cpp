@@ -70,6 +70,24 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 struct math_t084A7021C0897F87DB209393BE7FBDFD6A7FBFA6  : public RuntimeObject
 {
 };
+struct DebuggerProxy_t7ADF52C52717A46ECA0C565057AE4DE54B2C69B8  : public RuntimeObject
+{
+};
+struct DebuggerProxy_tD5F63FE661BF3F780BEFBE721E36E7A87B310121  : public RuntimeObject
+{
+};
+struct DebuggerProxy_tE4ABD062E1F1465B4A2601D1A2B183D9A691F3E7  : public RuntimeObject
+{
+};
+struct DebuggerProxy_t834C4C5984734C3563C7BCAA0995DB56453E04DB  : public RuntimeObject
+{
+};
+struct DebuggerProxy_tFD3C8C80DBBCC5A0DBFB6C74F3A6C2BDFD1F362A  : public RuntimeObject
+{
+};
+struct DebuggerProxy_t3A8A5A2398C653D7A869D7B07919E08EB23696E8  : public RuntimeObject
+{
+};
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	bool ___m_value;
@@ -348,6 +366,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline (float ___0_x, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) ;
@@ -374,7 +393,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_m334A7F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE (float* __this, String_t* ___0_format, RuntimeObject* ___1_provider, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_xyz, float ___1_w, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_rhs, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) ;
@@ -767,6 +785,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		return L_15;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_min_m74710FF54B13ED27A7481D9524971E171F730360 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_x, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_x;
+		float L_1 = L_0.___x;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_y;
+		float L_3 = L_2.___x;
+		float L_4;
+		L_4 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_1, L_3, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5 = ___0_x;
+		float L_6 = L_5.___y;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7 = ___1_y;
+		float L_8 = L_7.___y;
+		float L_9;
+		L_9 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_6, L_8, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___0_x;
+		float L_11 = L_10.___z;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___1_y;
+		float L_13 = L_12.___z;
+		float L_14;
+		L_14 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_11, L_13, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_15 = ___0_x;
+		float L_16 = L_15.___w;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_17 = ___1_y;
+		float L_18 = L_17.___w;
+		float L_19;
+		L_19 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_16, L_18, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_20), L_4, L_9, L_14, L_19, NULL);
+		return L_20;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -864,6 +915,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		memset((&L_15), 0, sizeof(L_15));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_15), L_4, L_9, L_14, NULL);
 		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E math_max_m03D4AA9B67EC6003C76DB09B28B9F45D1AFBBB66 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_x, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_x;
+		float L_1 = L_0.___x;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_y;
+		float L_3 = L_2.___x;
+		float L_4;
+		L_4 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_1, L_3, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5 = ___0_x;
+		float L_6 = L_5.___y;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7 = ___1_y;
+		float L_8 = L_7.___y;
+		float L_9;
+		L_9 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_6, L_8, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___0_x;
+		float L_11 = L_10.___z;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___1_y;
+		float L_13 = L_12.___z;
+		float L_14;
+		L_14 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_11, L_13, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_15 = ___0_x;
+		float L_16 = L_15.___w;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_17 = ___1_y;
+		float L_18 = L_17.___w;
+		float L_19;
+		L_19 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_16, L_18, NULL);
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_20), L_4, L_9, L_14, L_19, NULL);
+		return L_20;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
@@ -1866,6 +1950,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -1954,6 +2046,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), ((float)il2cpp_codegen_add(L_13, L_15)), NULL);
+		return L_16;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3 (float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_lhs, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_12 = ___0_lhs;
+		float L_13 = L_12.___w;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = ___1_rhs;
+		float L_15 = L_14.___w;
+		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline((&L_16), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), ((float)il2cpp_codegen_subtract(L_13, L_15)), NULL);
 		return L_16;
 	}
 }
@@ -2218,6 +2335,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		return L_8;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2974,6 +3099,14 @@ IL2CPP_EXTERN_C  String_t* int2_ToString_mB5FA23BE92C8532E53BAAA3B743D89ED6C23EE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F* __this, uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -3161,6 +3294,14 @@ IL2CPP_EXTERN_C  String_t* uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC55127
 	_returnValue = uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC551277AD_inline(_thisAdjusted, ___0_format, ___1_formatProvider, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3379,6 +3520,14 @@ IL2CPP_EXTERN_C  String_t* uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8B
 	_returnValue = uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8BFEE_inline(_thisAdjusted, ___0_format, ___1_formatProvider, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -3793,6 +3942,14 @@ IL2CPP_EXTERN_C  String_t* uint4_ToString_m3350471364AB1D6033E088C0DF78937695492
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B math_asuint_m4AEE8C17FEDA05D4C77C427818D1C9EF5E31521E_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, const RuntimeMethod* method) 
 {
 	{
@@ -4151,6 +4308,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D
 		__this->___y = L_1;
 		float L_2 = ___2_z;
 		__this->___z = L_2;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		float L_3 = ___3_w;
+		__this->___w = L_3;
 		return;
 	}
 }
@@ -4592,20 +4763,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		__this->___y = L_1;
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_inline (float4_t89D9A294E7A79BD81BFBDD18654508532958555E* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
-{
-	{
-		float L_0 = ___0_x;
-		__this->___x = L_0;
-		float L_1 = ___1_y;
-		__this->___y = L_1;
-		float L_2 = ___2_z;
-		__this->___z = L_2;
-		float L_3 = ___3_w;
-		__this->___w = L_3;
 		return;
 	}
 }

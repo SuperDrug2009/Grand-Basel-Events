@@ -214,6 +214,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_get_hasBoundPlayables();
 		Register_UnityEngine_Animator_get_hasBoundPlayables();
 
+		//System.Int32 UnityEngine.Animator::StringToHash(System.String)
+		void Register_UnityEngine_Animator_StringToHash();
+		Register_UnityEngine_Animator_StringToHash();
+
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
@@ -237,6 +241,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Application::get_isPlaying()
 		void Register_UnityEngine_Application_get_isPlaying();
 		Register_UnityEngine_Application_get_isPlaying();
+
+		//System.String UnityEngine.Application::get_persistentDataPath()
+		void Register_UnityEngine_Application_get_persistentDataPath();
+		Register_UnityEngine_Application_get_persistentDataPath();
+
+		//System.String UnityEngine.Application::get_streamingAssetsPath()
+		void Register_UnityEngine_Application_get_streamingAssetsPath();
+		Register_UnityEngine_Application_get_streamingAssetsPath();
 
 		//System.Void UnityEngine.Application::OpenURL(System.String)
 		void Register_UnityEngine_Application_OpenURL();
@@ -1418,6 +1430,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_CheckDisabled();
 		Register_UnityEngine_Input_CheckDisabled();
 
+		//System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
+		void Register_UnityEngine_Input_GetKeyDownInt();
+		Register_UnityEngine_Input_GetKeyDownInt();
+
+		//System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
+		void Register_UnityEngine_Input_GetKeyInt();
+		Register_UnityEngine_Input_GetKeyInt();
+
 		//System.Boolean UnityEngine.Input::GetKeyUpInt(UnityEngine.KeyCode)
 		void Register_UnityEngine_Input_GetKeyUpInt();
 		Register_UnityEngine_Input_GetKeyUpInt();
@@ -1901,6 +1921,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.MonoBehaviour::get_useGUILayout()
 		void Register_UnityEngine_MonoBehaviour_get_useGUILayout();
 		Register_UnityEngine_MonoBehaviour_get_useGUILayout();
+
+		//System.String UnityEngine.MonoBehaviour::GetScriptClassName()
+		void Register_UnityEngine_MonoBehaviour_GetScriptClassName();
+		Register_UnityEngine_MonoBehaviour_GetScriptClassName();
 
 		//System.Void UnityEngine.MonoBehaviour::CancelInvoke(UnityEngine.MonoBehaviour,System.String)
 		void Register_UnityEngine_MonoBehaviour_CancelInvoke();
@@ -2813,6 +2837,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.Sprite
 
 	//Start Registrations for type : UnityEngine.SpriteRenderer
+
+		//System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
+		void Register_UnityEngine_SpriteRenderer_set_sprite();
+		Register_UnityEngine_SpriteRenderer_set_sprite();
 
 		//UnityEngine.Sprite UnityEngine.SpriteRenderer::get_sprite()
 		void Register_UnityEngine_SpriteRenderer_get_sprite();

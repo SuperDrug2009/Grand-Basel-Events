@@ -16,25 +16,31 @@ extern void InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A199
 extern void InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF (void);
 extern void InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE (void);
 extern void InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3 (void);
-static Il2CppMethodPointer s_methodPointers[4] = 
+extern void InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44 (void);
+extern void InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148 (void);
+static Il2CppMethodPointer s_methodPointers[6] = 
 {
 	InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A1991BB104E,
 	InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF,
 	InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE,
 	InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3,
+	InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44,
+	InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148,
 };
-static const int32_t s_InvokerIndices[4] = 
+static const int32_t s_InvokerIndices[6] = 
 {
-	2518,
-	2515,
-	2231,
-	1868,
+	6361,
+	6329,
+	5989,
+	5437,
+	6638,
+	6750,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_InternalAPIEngineBridge_001_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_InternalAPIEngineBridge_001_CodeGenModule = 
 {
 	"Unity.InternalAPIEngineBridge.001.dll",
-	4,
+	6,
 	s_methodPointers,
 	0,
 	NULL,
